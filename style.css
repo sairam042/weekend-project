@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 100;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  /* Add more styling as needed */
+  /* Your existing CSS styles */
+
+.book-link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .book-details {
+    display: none;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  /* Additional styles as needed */
+  
+ /* ... (Your existing styles) ... */
+
+.book-link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .book-details {
+    display: none;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #ff0000;
+  }
+  
+  /* Additional styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    th, td {
+      padding: 5px;
+    }
+  }
+   
